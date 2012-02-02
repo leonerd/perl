@@ -1011,6 +1011,13 @@ use File::Glob qw(:case);
         'UPSTREAM'     => 'cpan',
     },
 
+    'IO::Socket::IP' => {
+        'MAINTAINER'   => 'pevans',
+        'DISTRIBUTION' => 'PEVANS/IO-Socket-IP-0.08.tar.gz',
+        'FILES'        => q[cpan/IO-Socket-IP],
+        'UPSTREAM'     => 'cpan',
+    },
+
     'IO::Zlib' => {
         'MAINTAINER'   => 'tomhughes',
         'DISTRIBUTION' => 'TOMHUGHES/IO-Zlib-1.10.tar.gz',
